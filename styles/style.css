@@ -10,6 +10,7 @@ body{
 /* header section starts here */
 header {
     margin: 0 auto;
+    background:linear-gradient(180.00deg, rgb(0, 0, 0),rgba(26, 25, 25, 0.904),rgb(0, 0, 0) 100%);
 }
 /* nav start here */
 .nav{
@@ -33,7 +34,8 @@ header {
 }
 .options{
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;
+    border-radius: 46px;
+
 }
 .options button{
     background-color: rgb(230, 83, 60);
@@ -43,10 +45,150 @@ header {
     font-weight: 600;
     border-radius: 46px;
     border: none;
+    margin: 4px;
 }
 .options p{
     font-size: 1.125rem;
     font-weight: 400;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    padding: 12px 4px 12px 4px ;
+    margin-right: 10px;
+}
+.ham-bar{
+    display: none;
 }
 /* Hero start here */
+
+/* banner */
+.banner{
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 32px;
+}
+.banner-text{
+    width: 600px;
+    margin-top: 96px;
+    margin-right: 87px;
+}
+
+.banner-text h1{
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: white;
+}
+.banner-text p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+}
+.hero-btn{
+    margin-top: 28px;
+}
+.join-club-btn{
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    padding: 16px 46.5px 16px 46.5px;
+    border-radius: 46px;
+    border: none;
+}
+.app-download-btn{
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 16px 46.5px 16px 46.5px;
+    border-radius: 46px;
+    border: 1px solid rgb(255, 255, 255); 
+    margin-left: 14px;
+}
+.workoutvideos{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: -457px;
+    margin-left: 230px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+}
+.workoutvideos h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    padding: 17px 23px 5px 24px;
+}
+.workoutvideos p{
+    font-size: 0.813rem;
+    color: rgba(255, 255, 255, 0.65);
+    padding: 0px 23px 16px 24px;
+}
+.video-tutorial{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -155px;
+    margin-left: -113px;
+    padding: 0px 23px 5px 23px;
+    backdrop-filter: blur(20px);
+    
+}
+.video-tutorial > .round{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.video-tutorial-text h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    padding: 17px 23px 5px 24px;
+}
+.video-tutorial-text p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.65);
+    padding: 0px 23px 16px 24px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 576px) {
+    header {
+        background:linear-gradient(180.00deg, rgb(0, 0, 0),rgba(26, 25, 25, 0.904),rgb(0, 0, 0) 100%);
+        
+    }
+    .nav{
+        width: 90%;
+    }
+    .options{
+        display: none;
+    }
+    .ham-bar{
+        display: contents;
+    }
+    /* banner */
+    .banner{
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .banner-text{
+       
+    }
+    .banner-text h1{
+        font-size: 2.25rem;
+        margin-right: 200px;
+    }
+    .banner-text p{
+        margin-right: 200px;
+    }
+
+    .video-tutorial{
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+  }
