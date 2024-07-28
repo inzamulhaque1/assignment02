@@ -1,0 +1,62 @@
+
+@media screen and (max-width: 576px) {
+    .nav{
+        padding-top: 57px;
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .options{
+        display: none;
+    }
+    .ham-bar{
+        display: contents;
+    }
+    /* banner */
+    .banner{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-text{
+        width: auto;
+        margin-top: 51px;
+        margin-right: 87px;
+    }
+    .banner-text h1{
+        font-size: 3rem;
+        font-weight: 900;
+        color: white;
+    }
+    .hero-btn{
+        margin-top: 28px;
+    }
+    .join-club-btn{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .app-download-btn{
+        padding: 16px 20px 16px 20px;
+    }
+    .workoutvideos{
+        margin-top: -500px;
+        margin-left: 230px;
+    }
+    .video-tutorial{
+        margin-top: -300px;
+        margin-left: 20px;
+    }
+    .change-your-habit-parent{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+    }
+    .habit-card-container{
+        margin-top: 58px;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .change-your-habit-parent p{
+        margin-bottom: 40px;
+    }
+
+}
