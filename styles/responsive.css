@@ -69,6 +69,31 @@
     .run-extra-mile img{
         width: auto;
     }
-    
+    /* BMI Calculator */
+    .bmi-content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(34, 34, 34);
+    }
+    .bmi-calculator h1{
+        margin-top: 50px;
+    }
+    .bmi-inputs input{
+        height: 46px;
+        width: 170px;
+        
+    }    
+    #sex{
+        height: 46px;
+        width: 195px;
+    }
+    #activity{
+        height: 46px;
+        width: 405px;
+    }
+    .bmi-heading{
+        width: 90%;
+    }
 
 }
