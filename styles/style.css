@@ -60,7 +60,7 @@ header {
     margin-right: 10px;
 }
 .ham-bar{
-    display: none
+    display: none !important;
 }
 /* Hero start here */
 
