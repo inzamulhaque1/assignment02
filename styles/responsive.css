@@ -95,5 +95,22 @@
     .bmi-heading{
         width: 90%;
     }
+    .meet-our-team{
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .meet-our-team-photo-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+        justify-content: center;
+    }
+    .M-O-T-card img{
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
 
 }
