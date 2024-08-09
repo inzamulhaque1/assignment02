@@ -9,9 +9,13 @@
     .options{
         display: none;
     }
-    .ham-bar{
+    #hambar{
         display: contents;
     }
+    /* .ham-bar{
+        display: contents;
+    } */
+
     /* banner */
     .banner{
         width: 90%;
