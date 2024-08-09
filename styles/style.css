@@ -59,9 +59,13 @@ header {
     padding: 12px 4px 12px 4px ;
     margin-right: 10px;
 }
-.ham-bar{
-    display: none !important;
+#hambar{
+    display: none;
 }
+/* .ham-bar{
+    display: none !important;
+} */
+
 /* Hero start here */
 
 /* banner */
@@ -401,4 +405,65 @@ th{
     margin-left: 20px;
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
+}
+/* Footer  */
+.footer-main{
+    background-color: rgb(34, 34, 34);
+}
+.footer-container{
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 60px;
+}
+.bottom-fitness-sec{
+    width: 520px;
+    padding-right: 30px;
+}
+.bottom-fitness-sec h1{
+    font-size: 4.375rem;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-style: italic;
+}
+.bottom-fitness-sec p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.footer-options-container{
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+}
+
+.footer-options h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-options p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.438rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#footer-p{
+    margin-top: 40px;
+}
+.copyright{
+    width: 1060px;
+    margin: 0 auto;
+}
+.copyright hr{
+    margin-top: 50px;
+}
+.copyright P{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+
 }

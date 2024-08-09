@@ -112,5 +112,26 @@
         width: 90%;
     }
 
+    /* footer */
+    .footer-container{
+        width: 90%;
+        display: flex;
+        padding-top: 60px;
+        flex-direction: column;
+    }
+    .footer-options-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .footer-options h3{
+        padding-top: 30px;
+    }
+    .copyright{
+        width: 90%;
+    }
+
+    
+
 
 }
