@@ -99,6 +99,30 @@
     .bmi-heading{
         width: 90%;
     }
+    /* Challenge Bonus part */
+    .challenge{
+        width: 90%;  
+    }
+    .challenge h1{
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 15px;
+    }
+    .challenge-li-photo{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .challenge-photo img{
+        margin-top: 30px;
+        height: 200px;
+        width: auto;
+    }
+    /* meet our team */
+    
+    #M-O-T-card-hide{
+        display: none;
+    }
     .meet-our-team{
         width: 90%;
         margin-top: 20px;
@@ -108,12 +132,12 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        height: fit-content;
+        height: auto;
         justify-content: center;
     }
     .M-O-T-card img{
         margin-bottom: 20px;
-        width: 90%;
+        width: 100%;
     }
 
     /* footer */

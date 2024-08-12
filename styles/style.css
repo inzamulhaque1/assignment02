@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -213,7 +220,7 @@ header {
     width: 366px;
     object-fit: cover;
     padding: 30px;
-    border-radius: 15%;
+    border-radius: 56px;
 }
 .run-extra-mile-text-content{
     width: 443px;
@@ -353,6 +360,56 @@ th{
     margin-top: 40px;
     margin-bottom: 50px;
 }
+/* Challenge Bonus Part */
+.challenge{
+    width: 1060px;
+    margin: 0 auto;  
+}
+.challenge h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    padding-top: 25px;
+}
+ul li::before {
+    content: "\2713";
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+  }
+#cross-li:before {
+    content: "\2716";
+    color: red;
+  }
+.challenge-li-photo{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.challenge-li{
+    color: white;
+}
+li{
+    margin-top: 10px;
+    list-style: none;
+}
+.challenge-photo{
+    height: 250px;
+}
+.challenge-photo img{
+    height: 100%;
+    border-radius: 26px;
+    border: 1px solid rgb(56, 56, 61) ;
+}
+.challenge-photo img:hover{
+    border-radius: 50%;
+    border: none;
+    box-shadow: 5px 5px 15px 5px rgb(59, 58, 59);
+    margin: 0 10px 10px 0;
+}
+
+
+
 /* Meet OUR TEAM */
 
 .meet-our-team{
